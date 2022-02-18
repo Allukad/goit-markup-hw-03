@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -24,17 +29,36 @@ ul {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
+.head-logo {
+  margin-right: 93px;
+  margin-left: 215px;
+}
 /* Стили Шапки */
 .header {
 }
-.head-list {
+.head-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
 }
 /* Шапка Логотип */
 .logo-head-studio {
   color: #000000;
 }
 /* Шапка Навигация */
+.header-nav-list {
+  display: flex;
+  padding-left: 0px;
+  margin: 0px 0px;
+}
 .header-nav-item {
+  margin-right: 50px;
+}
+.header-nav-item:last-child {
+  margin-right: 0px;
 }
 .header-nav-link {
   font-weight: 500;
@@ -50,12 +74,19 @@ ul {
   color: #2196f3;
 }
 /* Шапка Контакты */
-.contacts-item {
+.header-contacts {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin-left: 331px;
+}
+.contacts-item:not(last-child) {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
   color: var(--sec-color);
+  margin-right: 50px;
 }
 .contacts-item:hover {
   color: #2196f3;
