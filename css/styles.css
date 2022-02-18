@@ -226,18 +226,29 @@ ul {
 }
 /* Стили Портфолио */
 .portf-main {
+  margin: 94px auto;
+  width: 1170px;
 }
 /* Портфолио фильтр */
 .portf-filter-list {
+  margin: 0px;
+  margin-bottom: 50px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.portf-filter-item {
+.portf-filter-item:not(:last-child) {
+  margin-right: 8px;
 }
 .filter-button {
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--main-color);
   background-color: #f5f4fa;
   border-radius: 4px;
 }
@@ -248,23 +259,37 @@ ul {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* Портфолио проекты */
-.portf-projrct-list {
+.portf-project-list {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .portf-project-item {
+  width: 370px;
+  height: 404px;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
+.portf-project-item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
+.portf-project-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
 .portf-project-name {
-  font-weight: 500;
+  margin: 20px 24px 4px;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 2;
+  line-height: 1.71;
   letter-spacing: 0.06em;
   color: var(--main-color);
 }
 .portf-project-class {
+  margin: 4px 24px 20px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.87em;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--sec-color);
 }
