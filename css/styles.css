@@ -40,6 +40,7 @@ p {
   align-items: center;
   justify-content: center;
   margin: auto;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -48,6 +49,7 @@ p {
   flex-direction: column;
   align-items: center;
   margin: auto;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -282,9 +284,6 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* Портфолио проекты */
-.portf-project-box {
-  width: 1170px;
-}
 .portf-project-list {
   display: flex;
   flex-wrap: wrap;
@@ -326,10 +325,11 @@ img {
   justify-content: center;
 }
 .container-footer {
-  width: 1600px;
+  width: 1200px;
   display: flex;
   flex-direction: column;
-  padding-left: 215px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /* Подвал логотип цвет */
 .logo-foot-studio {
