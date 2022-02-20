@@ -282,7 +282,7 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* Портфолио проекты */
-.portfolio-box {
+.portf-project-box {
   width: 1170px;
 }
 .portf-project-list {
@@ -319,14 +319,17 @@ img {
 }
 /* Стили Подвала */
 .footer {
-  padding: 60px 215px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
+  display: flex;
+  justify-content: center;
 }
 .container-footer {
+  width: 1600px;
   display: flex;
   flex-direction: column;
-  padding-left: 15px;
-  padding-bottom: 15px;
+  padding-left: 215px;
 }
 /* Подвал логотип цвет */
 .logo-foot-studio {
