@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Нормализатор -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <!-- Шрифты -->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -57,6 +62,7 @@
     <main>
       <section class="section">
         <div class="container">
+          <h1 class="hidden-title">Наши проекты</h1>
           <!-- Портфолио фильтры -->
           <ul class="portf-filter-list">
             <li class="portf-filter-item">
@@ -76,121 +82,118 @@
             </li>
           </ul>
           <!-- Портфолио проекты -->
-          <div class="portf-project-box">
-            <h1 hidden>Наши проекты</h1>
-            <ul class="portf-project-list">
-              <li class="portf-project-item">
-                <img
-                  src="./images/portfolio-img/portf-1.jpg"
-                  alt="Технокряк"
-                  width="370px"
-                  height="294px"
-                />
-                <div class="portf-text-box">
-                  <h2 class="portf-project-name">Технокряк</h2>
-                  <p class="portf-project-class">Веб-сайт</p>
-                </div>
-              </li>
-              <li class="portf-project-item">
-                <img
-                  src="./images/portfolio-img/portf-2.jpg"
-                  alt="Постер New Orlean vs Golden Star"
-                  width="370px"
-                  height="294px"
-                />
-                <div class="portf-text-box">
-                  <h2 class="portf-project-name">
-                    Постер New Orlean vs Golden Star
-                  </h2>
-                  <p class="portf-project-class">Дизайн</p>
-                </div>
-              </li>
-              <li class="portf-project-item">
-                <img
-                  src="./images/portfolio-img/portf-3.jpg"
-                  alt="Ресторан Seafood"
-                  width="370px"
-                  height="294px"
-                />
-                <div class="portf-text-box">
-                  <h2 class="portf-project-name">Ресторан Seafood</h2>
-                  <p class="portf-project-class">Приложение</p>
-                </div>
-              </li>
-              <li class="portf-project-item">
-                <img
-                  src="./images/portfolio-img/portf-4.jpg"
-                  alt="Проект Prime"
-                  width="370px"
-                  height="294px"
-                />
-                <div class="portf-text-box">
-                  <h2 class="portf-project-name">Проект Prime</h2>
-                  <p class="portf-project-class">Маркетинг</p>
-                </div>
-              </li>
-              <li class="portf-project-item">
-                <img
-                  src="./images/portfolio-img/portf-5.jpg"
-                  alt="Проект Boxes"
-                  width="370px"
-                  height="294px"
-                />
-                <div class="portf-text-box">
-                  <h2 class="portf-project-name">Проект Boxes</h2>
-                  <p class="portf-project-class">Приложение</p>
-                </div>
-              </li>
-              <li class="portf-project-item">
-                <img
-                  src="./images/portfolio-img/portf-6.jpg"
-                  alt="Inspiration has no Borders"
-                  width="370px"
-                  height="294px"
-                />
-                <div class="portf-text-box">
-                  <h2 class="portf-project-name">Inspiration has no Borders</h2>
-                  <p class="portf-project-class">Веб-сайт</p>
-                </div>
-              </li>
-              <li class="portf-project-item">
-                <img
-                  src="./images/portfolio-img/portf-7.jpg"
-                  alt="Издание Limited Edition"
-                  width="370px"
-                  height="294px"
-                />
-                <div class="portf-text-box">
-                  <h2 class="portf-project-name">Издание Limited Edition</h2>
-                  <p class="portf-project-class">Дизайн</p>
-                </div>
-              </li>
-              <li class="portf-project-item">
-                <img
-                  src="./images/portfolio-img/portf-8.jpg"
-                  alt="Проект LAB"
-                  width="370px"
-                  height="294px"
-                />
-                <div class="portf-text-box">
-                  <h2 class="portf-project-name">Проект LAB</h2>
-                  <p class="portf-project-class">Маркетинг</p>
-                </div>
-              </li>
-              <li class="portf-project-item">
-                <img
-                  src="./images/portfolio-img/portf-9.jpg"
-                  alt="Growing Business"
-                  width="370px"
-                  height="294px"
-                />
-                <div class="portf-text-box">
-                  <h2 class="portf-project-name">Growing Business</h2>
-                  <p class="portf-project-class">Приложение</p>
-                </div>
-              </li>
-            </ul>
-          </div>
+          <ul class="portf-project-list">
+            <li class="portf-project-item">
+              <img
+                src="./images/portfolio-img/portf-1.jpg"
+                alt="Технокряк"
+                width="370px"
+                height="294px"
+              />
+              <div class="portf-text-box">
+                <h2 class="portf-project-name">Технокряк</h2>
+                <p class="portf-project-class">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="portf-project-item">
+              <img
+                src="./images/portfolio-img/portf-2.jpg"
+                alt="Постер New Orlean vs Golden Star"
+                width="370px"
+                height="294px"
+              />
+              <div class="portf-text-box">
+                <h2 class="portf-project-name">
+                  Постер New Orlean vs Golden Star
+                </h2>
+                <p class="portf-project-class">Дизайн</p>
+              </div>
+            </li>
+            <li class="portf-project-item">
+              <img
+                src="./images/portfolio-img/portf-3.jpg"
+                alt="Ресторан Seafood"
+                width="370px"
+                height="294px"
+              />
+              <div class="portf-text-box">
+                <h2 class="portf-project-name">Ресторан Seafood</h2>
+                <p class="portf-project-class">Приложение</p>
+              </div>
+            </li>
+            <li class="portf-project-item">
+              <img
+                src="./images/portfolio-img/portf-4.jpg"
+                alt="Проект Prime"
+                width="370px"
+                height="294px"
+              />
+              <div class="portf-text-box">
+                <h2 class="portf-project-name">Проект Prime</h2>
+                <p class="portf-project-class">Маркетинг</p>
+              </div>
+            </li>
+            <li class="portf-project-item">
+              <img
+                src="./images/portfolio-img/portf-5.jpg"
+                alt="Проект Boxes"
+                width="370px"
+                height="294px"
+              />
+              <div class="portf-text-box">
+                <h2 class="portf-project-name">Проект Boxes</h2>
+                <p class="portf-project-class">Приложение</p>
+              </div>
+            </li>
+            <li class="portf-project-item">
+              <img
+                src="./images/portfolio-img/portf-6.jpg"
+                alt="Inspiration has no Borders"
+                width="370px"
+                height="294px"
+              />
+              <div class="portf-text-box">
+                <h2 class="portf-project-name">Inspiration has no Borders</h2>
+                <p class="portf-project-class">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="portf-project-item">
+              <img
+                src="./images/portfolio-img/portf-7.jpg"
+                alt="Издание Limited Edition"
+                width="370px"
+                height="294px"
+              />
+              <div class="portf-text-box">
+                <h2 class="portf-project-name">Издание Limited Edition</h2>
+                <p class="portf-project-class">Дизайн</p>
+              </div>
+            </li>
+            <li class="portf-project-item">
+              <img
+                src="./images/portfolio-img/portf-8.jpg"
+                alt="Проект LAB"
+                width="370px"
+                height="294px"
+              />
+              <div class="portf-text-box">
+                <h2 class="portf-project-name">Проект LAB</h2>
+                <p class="portf-project-class">Маркетинг</p>
+              </div>
+            </li>
+            <li class="portf-project-item">
+              <img
+                src="./images/portfolio-img/portf-9.jpg"
+                alt="Growing Business"
+                width="370px"
+                height="294px"
+              />
+              <div class="portf-text-box">
+                <h2 class="portf-project-name">Growing Business</h2>
+                <p class="portf-project-class">Приложение</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
